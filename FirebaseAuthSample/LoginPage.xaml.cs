@@ -165,7 +165,7 @@ public partial class LoginPage : ContentPage
         {
             Console.WriteLine("User signing up");
 
-            await authClient.CreateUserWithEmailAndPasswordAsync(email, password, "Jorma").ContinueWith(task =>
+            await authClient.CreateUserWithEmailAndPasswordAsync(email, password, "Display Name").ContinueWith(task =>
             {
                 if (task.IsFaulted)
                 {
