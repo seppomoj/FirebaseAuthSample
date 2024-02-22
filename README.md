@@ -4,7 +4,7 @@ I was coding a separate cross-platform app and run into a need of authentication
 There is a limited number of Firebase Auth packages available in NuGet but I decided to use FirebaseAuthentication.net from Step Up Labs. https://github.com/step-up-labs/firebase-authentication-dotnet.
 FirebaseAuthentication.net has provided some sample code in their github, but alas, there is no sample code for .NET MAUI.
 
-**Applications etc. needed**
+**Applications and packages needed**
 
 - Visual Studio 2022
 - Firebaseauthentication.net by Step Up Labs, Inc.
